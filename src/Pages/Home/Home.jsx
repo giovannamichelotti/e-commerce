@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Navbar } from '../../Components'
-
+import { Link } from 'react-router-dom';
 import { AiFillAndroid } from "react-icons/ai";
 import { obtenerProductos } from '../../Fetching/products.fetching';
 
@@ -60,7 +60,7 @@ const Home = () => {
     const handleAbortFocus = () => {
         setIsWritting(false)
     }
-}
+
 
     return(
     <div>
@@ -93,7 +93,7 @@ const Home = () => {
         </div>
     </div>  
     )
-    
+}
 
 
 export default Home

@@ -1,9 +1,8 @@
 import React from 'react'
 
 import { Route, Routes } from 'react-router-dom'
-import { Detail, Home } from './Pages'
-import { Contact } from './Pages'
-import { Cart } from './Pages'
+import { Detail, Home, Contact, Cart } from './Pages'
+
 
 const App = () => {
     
